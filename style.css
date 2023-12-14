@@ -1,0 +1,103 @@
+body {
+    background-color: #272829;
+    color: #79aeb2;
+    font-family: Verdana, Arial, sans-serif;
+}
+
+header {
+    background-color: #4A6274;
+}
+
+nav {
+    background-color: #79aeb2;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 50px;
+	display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+	padding: 20px;
+}
+
+nav a {
+    text-decoration: none;
+	color: #272829
+}
+
+h1 {
+    line-height: 200%;
+    text-indent: 1em;
+}
+
+footer {
+    background-color: #4A6274;
+    text-align: center;
+    font-style: italic;
+    font-size: small;
+    margin-top: 600px;
+}
+footer a {
+    text-decoration: none;
+	color: #272829
+}
+
+li, dd {
+    font-size: 90%;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+}
+
+.gallery-section {
+    padding: 20px;
+    background-color: #f7f7f7;
+    color: #272829;
+}
+
+.gallery-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.gallery-item {
+    border: 1px solid #e0e0e0;
+    overflow: hidden;
+}
+
+.gallery-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.qa-answer {
+    margin-left: 20px;
+    font-size: 0.9em;
+}
+
+.qa-section {
+    margin-bottom: 20px;
+}
+main dl {
+    margin-top: 90px;
+}
+.large-text {
+    font-size: 60px;
+    font-weight: bold;
+.orange-link {
+    color: orange;
+}
+.form-group {
+    margin-bottom: 20px;
+}
+a[href] {
+    color: orange;
+}
+
+a[href]:visited {
+    color: #8B4000;
+}
